@@ -1,8 +1,11 @@
+import { Outlet } from "react-router";
 
 const AppLayout = () => {
   return (
-    <div>AppLayout</div>
-  )
-}
+    <div>
+      <Outlet />
+    </div>
+  );
+};
 
-export default AppLayout
+export default AppLayout;
